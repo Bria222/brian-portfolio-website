@@ -2,8 +2,9 @@
 
 ## Built With
 
-- html
-- css
+1. html
+2. css
+3. Figma
 
 ## Getting Started
 
