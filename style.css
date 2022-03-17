@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
 
-
 /* css sudo selector for entire css */
 
 * {
@@ -170,4 +169,3 @@ h1 {
   margin-top: 10px;
   background-size: cover;
 }
-
