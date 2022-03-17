@@ -2,6 +2,8 @@
 
 /* css sudo selector for entire css */
 
+/* stylelint-disable indentation */
+
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
