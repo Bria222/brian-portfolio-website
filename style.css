@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+
 
 /* css sudo selector for entire css */
 
 * {
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
@@ -84,7 +85,7 @@
 
 h1 {
   color: #172b4d;
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   padding: 15px 8px;
   font-size: 39px;
   line-height: 52px;
@@ -107,7 +108,7 @@ h1 {
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   margin: 0;
 }
@@ -169,3 +170,4 @@ h1 {
   margin-top: 10px;
   background-size: cover;
 }
+
