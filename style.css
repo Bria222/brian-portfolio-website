@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/*css sudo selector for entire css*/
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+ 
+}
+.logo {
+    color: #6070ff;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+.content {
+   background-color: #fff;
+}
+
+.heading {
+  width: 100vw;
+  height: 48px;
+  display: flex;
+  position: fixed;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  z-index: 100;
+}
+
+.logo-container {
+  padding: 10px 12px;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.logo-item {
+  height: 25px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+.menu-top {
+  width: 100px;
+  height: 100%;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.menu-item {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5px;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  border-bottom-left-radius: 100px;
+  background: url(assets/background-images/bg.svg);
+  background-size: contain;
+  background-color: #fff;
+}
+
+.mainn {
+  width: 327px;
+  height: 180px;
+  flex: none;
+  order: 0;
+  margin: 5px;
+}
+
+h1 {
+  color: #172B4D;
+  font-family: 'Poppins';
+  padding:15px 8px;
+  font-size: 39px;
+  line-height: 52px;
+  
+}
+.details {
+  margin: 5px 15px;
+  line-height: 24px;
+  text-align: start;
+}
+
+.description-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.link-item {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  margin: 0;
+
+}
+
+.connect {
+  text-decoration: none;
+  margin-left: 19px;
+  color: #7f8cff; 
+}
+
+.hand{
+    background-image: url(assets/icons/hand.svg);
+    
+  }
+
+.icon-svgs {
+  flex-grow: 1;
+  padding: 1px;
+  display: flex;
+  column-gap: 19px;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter {
+    background-image: url(assets/icons/twitter.png);
+    
+  }
+
+.social {
+width: 175px;
+height: 40px;
+margin: 5px 24px;
+
+}
+  
+  .linkedlin {
+    background-image: url(assets/icons/linkedin.svg);
+    
+  }
+
+.svg {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+
+.git {
+    background-image: url(assets/icons/gitt.svg);
+    
+  }
+
+.medium {
+  background-image: url(assets/icons/mediumm.svg);
+
+  
+}
+
+.icon {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background-size: cover;
+    
+  }
+
+
+
+
