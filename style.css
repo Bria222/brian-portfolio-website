@@ -6,7 +6,6 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -232,6 +231,7 @@ h1 {
   color: #396df2;
   cursor: pointer;
   text-decoration: none;
+  margin-top: auto;
 }
 
 .headimage {
@@ -265,13 +265,23 @@ h1 {
 
 .project-subtitle-container {
   width: 100%;
+  margin-left: 16px;
+  align-items: center;
 }
 
 .subtitle-items {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  padding-left: 16px;
+  align-items: baseline;
+}
+
+.listinfo {
+font-style: normal;
+color: #344563;
+font-weight: 600;
+font-size: 15px;
+line-height: 16px;
 }
 
 .list-less {
@@ -362,7 +372,7 @@ h1 {
 .my-skills {
   display: flex;
   flex-direction: row;
-  padding: 10px 0 20px 0;
+  padding: 15px 0 20px 0;
   margin-bottom: 5px;
   border-bottom: 1px solid #dfe1e6;
   position: relative;
@@ -400,6 +410,7 @@ h1 {
   background-color: #fff;
   border-top-right-radius: 100px;
   padding: 10px 10px 100px 10px;
+  border: 1px solid grey;
 }
 
 .code {
@@ -449,7 +460,39 @@ h1 {
   color: grey;
   font-size: 30px;
   position: absolute;
-  top: 16.5px;
+  top: 5px;
   right: 10px;
-  cursor: pointer;
+}
+
+.work-one {
+  border: 1px solid #bfbfbf;
+  height: 80%;
+  background-color: white;
+}
+
+.work-two {
+  border: 1px solid #bfbfbf;
+  height: 80%;
+  background-color: white;
+}
+
+.work-three {
+  border: 1px solid #bfbfbf;
+  height: 80%;
+  background-color: white;
+}
+
+.work-four {
+  border: 1px solid #bfbfbf;
+  height: 80%;
+  background-color: white;
+}
+
+.about-myself {
+  height: 80%;
+  border: 1px solid #bfbfbf;
+}
+
+.wrapper {
+  background-color: #f2f2f2;
 }
