@@ -70,7 +70,7 @@
   padding: 114px 24px;
   border-bottom-left-radius: 100px;
   background: url(assets/background-images/bg.svg);
-  background-size: contain;
+  background-size: cover;
   background-color: #fff;
 }
 
