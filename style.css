@@ -326,8 +326,22 @@ line-height: 16px;
   padding: 4px 12px;
   background-color: #d9d9f5;
   border-radius: 8px;
-  opacity: 0.5;
   color: #6070ff;
+}
+
+.tag-btn:hover {
+  background-color: #668cff;
+  color: white;
+}
+
+.tag-btn:active {
+  opacity: 0.5;
+  color: blue;
+}
+
+.tag-btn:focus {
+  background-color: blue;
+  color: white;
 }
 
 .projects-btn {
