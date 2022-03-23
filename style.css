@@ -67,12 +67,14 @@
 .main-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 114px 24px;
+  align-items: center;
+  padding: 114px 22px;
   border-bottom-left-radius: 100px;
   background: url(assets/background-images/bg.svg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-color: #fff;
+  background-position: top right;
 }
 
 .mainn {
@@ -80,7 +82,7 @@
   height: 180px;
   flex: none;
   order: 0;
-  margin: 5px;
+  margin: 15px;
 }
 
 h1 {
@@ -234,6 +236,12 @@ h1 {
   cursor: pointer;
   text-decoration: none;
   margin-top: auto;
+}
+
+.project-button:hover {
+  background-color: blue;
+  opacity: 0.8;
+  color: white;
 }
 
 .headimage {
@@ -504,9 +512,8 @@ line-height: 16px;
   background-color: white;
 }
 
-.about-myself {
+#about-myself {
   height: 80%;
-  border: 1px solid #bfbfbf;
 }
 
 .wrapper {
@@ -522,7 +529,9 @@ line-height: 16px;
   background-color: #6070ff;
   background-image: url(assets/svg/contact-form-shapes-mobile.svg);
   background-size: cover;
+  background-repeat: no-repeat;
   border-top-left-radius: 100px;
+  background-position: bottom right;
 }
 
 .contact-title-container {
