@@ -320,6 +320,7 @@ line-height: 16px;
   gap: 10px;
   list-style: none;
   color: #6070ff;
+  float: right;
 }
 
 .tag-btn {
