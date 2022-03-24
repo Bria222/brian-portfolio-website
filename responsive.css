@@ -141,6 +141,16 @@
 
   .about-project {
     display: flex;
+    transition: box-shadow 450ms ease-in-out, transform 350ms ease-in;
+  }
+
+  .about-project:hover {
+    box-shadow: 0 0 0 2px #1aff, 3px 3px 6px rgb(85,84,84);
+    transform: translateY(-20px);
+  }
+
+  .about-project {
+    display: flex;
   }
 
   .about-items-a {
