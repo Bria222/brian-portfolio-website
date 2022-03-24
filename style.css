@@ -118,6 +118,8 @@ h1 {
   text-decoration: none;
   margin-left: 19px;
   color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .hand {
@@ -327,6 +329,7 @@ line-height: 16px;
   gap: 10px;
   list-style: none;
   color: #6070ff;
+  flex-wrap: wrap;
 }
 
 .tag-btn {
