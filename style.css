@@ -132,6 +132,10 @@ h1 {
   background-image: url(assets/icons/hand.svg);
 }
 
+.about-items-a {
+margin-left: 20px;
+}
+
 .icon-svgs {
   flex-grow: 1;
   padding: 1px;
@@ -263,6 +267,10 @@ h1 {
 }
 
 .project-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   grid-area: description;
   padding: 10px;
 }
@@ -282,7 +290,8 @@ h1 {
 
 .project-subtitle-container {
   width: 100%;
-  margin-left: 16px;
+
+  /* margin-left: 16px; */
   align-items: center;
 }
 
@@ -320,13 +329,15 @@ line-height: 16px;
 .project-article-container {
   width: 100%;
   margin-top: 10px;
-  padding-left: 16px;
+
+  /* padding-left: 16px; */
 }
 
 .project-tag-container {
   width: 100%;
   margin-top: 20px;
-  padding-left: 25px;
+
+  /* padding-left: 25px; */
 }
 
 .tag-item {
@@ -365,7 +376,6 @@ line-height: 16px;
   width: 100%;
   height: 100px;
   display: flex;
-  padding-left: 14px;
   justify-content: flex-start;
   align-items: center;
 }
@@ -399,6 +409,7 @@ line-height: 16px;
 
 .about-knowledge-container {
   margin: 10px 16px;
+  width: 100%;
 }
 
 .my-skills {
@@ -427,13 +438,29 @@ line-height: 16px;
 }
 
 .code-langguage-container {
-  width: 100%;
+  width: 500px;
 }
 
 .code-items {
-  display: flex;
+  display: flex !important;
   margin-top: 5px;
   flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.languages {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.code > .languages {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .about-project {
@@ -446,19 +473,12 @@ line-height: 16px;
 }
 
 .code {
+  width: 100% !important;
   margin: 10px;
   padding: 10px;
   background-color: #f7f7f9;
   list-style: none;
   border-radius: 10px;
-}
-
-.languages {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  gap: 20px;
 }
 
 .javascript-image {
@@ -498,7 +518,7 @@ line-height: 16px;
 
 .work-one {
   border: 1px solid #bfbfbf;
-  height: 80%;
+  height: 90%;
   background-color: white;
 }
 
