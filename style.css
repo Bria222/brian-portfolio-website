@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 /* css sudo selector for entire css */
 
@@ -39,9 +39,14 @@
 }
 
 .logo-item {
-  height: 25px;
-  padding-top: 2px;
-  cursor: pointer;
+width: 76px;
+height: 20px;
+left: 26px;
+top: 10px;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+margin-left: 155px;
 }
 
 .menu-top {
@@ -96,6 +101,7 @@ h1 {
   margin: 5px 15px;
   line-height: 24px;
   text-align: start;
+  margin-top: -30px;
 }
 
 .description-item {
