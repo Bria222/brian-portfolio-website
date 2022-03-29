@@ -17,7 +17,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-- GitHub: [@githubhandle](https://github.com/Bria222)
+- GitHub: [Bria222](https://github.com/Bria222)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/brian-nyachae-b99492232)
 
 
