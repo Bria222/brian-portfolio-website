@@ -11,14 +11,9 @@
   margin: 0;
 }
 
-.logo {
-  color: #6070ff;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 25px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
+.navbar > .container-xl,
+ .navbar > .container-xxl {
+  justify-content: space-around !important;
 }
 
 .heading {
@@ -69,6 +64,63 @@ margin-left: 155px;
   color: blue;
 }
 
+/* animated navbar */
+
+.navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #e74c3c;
+  display: block;
+  transition: all 0.2s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #777;
+}
+
+/* end of animated navbar */
 .main-section {
   display: flex;
   flex-direction: column;
@@ -93,8 +145,9 @@ h1 {
   color: #172b4d;
   font-family: "Poppins", sans-serif;
   padding: 15px 8px;
-  font-size: 39px;
+  font-size: 38px;
   line-height: 52px;
+  font-weight: bold;
 }
 
 .details {
@@ -546,6 +599,7 @@ line-height: 16px;
 
 .wrapper {
   background-color: #f2f2f2;
+  width: 98%;
 }
 
 .contact-container {

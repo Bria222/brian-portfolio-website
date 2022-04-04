@@ -2,6 +2,14 @@
   .menu-links {
     display: none;
   }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-nav {
+    margin-left: 28%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
