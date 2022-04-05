@@ -39,8 +39,9 @@ a {
 .nav-menu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 60px;
+  margin-left: 50px;
 }
 
 .nav-link {
@@ -48,12 +49,28 @@ a {
 }
 
 .nav-link:hover {
-   color: green;
+  color: green;
 }
 
 .humbuger {
   display: none;
   cursor: pointer;
+}
+
+.mobile-nav-menu {
+  margin-top: 7rem;
+  margin-left: 4rem;
+}
+
+#close-btn {
+  cursor: pointer;
+  display: none;
+  padding: 8px;
+  color: #fff;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5%;
+  right: 5%;
 }
 
 /* creating humbuger bars */
