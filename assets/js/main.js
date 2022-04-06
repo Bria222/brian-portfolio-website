@@ -1,5 +1,3 @@
-/*  eslint linebreak-style: ["error", "windows"]  */
-
 // get humbuger
 const humbuger = document.querySelector('.humbuger');
 // get navigation menu
