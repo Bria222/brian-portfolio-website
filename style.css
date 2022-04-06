@@ -17,14 +17,15 @@
   line-height: 20px;
   color: #6070ff;
   font-size: 18px;
+  text-decoration: none;
 }
 
 li {
   list-style: none;
 }
 
-a {
-  color: black;
+.links {
+  color: grey;
   text-decoration: none;
 }
 

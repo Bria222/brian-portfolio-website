@@ -8,6 +8,7 @@ const header = document.querySelector('.mobile-nav')
 humbuger.addEventListener('click', () => {
   humbuger.classList.add('active')
   navMenu.classList.add('active')
+  
   //display mobile nav
   header.style.cssText = `
   background-color: rgba(96, 112, 255, 0.85);
@@ -29,12 +30,14 @@ closeBtn.addEventListener('click', () => {
     top: -9999px;
     left: -9999px;
     `
+   
 })
 
 document.querySelectorAll('.nav-link').forEach((n) =>
   n.addEventListener('click', () => {
     humbuger.classList.remove('active')
     navMenu.classList.remove('active')
+   
 
     header.style.cssText = `
     background-color: rgba(96, 112, 255, 0.85);
