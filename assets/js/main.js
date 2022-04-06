@@ -1,13 +1,13 @@
 //get humbuger
-const humbuger = document.querySelector('.humbuger')
+const humbuger = document.querySelector('.humbuger');
 //get navigation menu
-const navMenu = document.querySelector('.nav-menu')
-const closeBtn = document.getElementById('close-btn')
-const header = document.querySelector('.mobile-nav')
+const navMenu = document.querySelector('.nav-menu');
+const closeBtn = document.getElementById('close-btn');
+const header = document.querySelector('.mobile-nav');
 
 humbuger.addEventListener('click', () => {
-  humbuger.classList.add('active')
-  navMenu.classList.add('active')
+  humbuger.classList.add('active');
+  navMenu.classList.add('active');
   
   //display mobile nav
   header.style.cssText = `
@@ -22,8 +22,8 @@ humbuger.addEventListener('click', () => {
 })
 
 closeBtn.addEventListener('click', () => {
-  humbuger.classList.remove('active')
-  navMenu.classList.remove('active')
+  humbuger.classList.remove('active');
+  navMenu.classList.remove('active');
   header.style.cssText = `
     background-color: rgba(96, 112, 255, 0.85);
     position: fixed;
@@ -35,8 +35,8 @@ closeBtn.addEventListener('click', () => {
 
 document.querySelectorAll('.nav-link').forEach((n) =>
   n.addEventListener('click', () => {
-    humbuger.classList.remove('active')
-    navMenu.classList.remove('active')
+    humbuger.classList.remove('active');
+    navMenu.classList.remove('active');
    
 
     header.style.cssText = `
@@ -46,4 +46,4 @@ document.querySelectorAll('.nav-link').forEach((n) =>
     left: -9999px;
     `
   }),
-)
+);

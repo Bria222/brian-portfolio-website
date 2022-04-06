@@ -44,6 +44,7 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 0 300px;
+  background-color: white;
 }
 
 .nav-menu {
@@ -560,7 +561,7 @@ h1 {
 }
 
 .wrapper {
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
 .contact-container {
