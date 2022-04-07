@@ -151,7 +151,7 @@ body {
 
   .modal-skills {
     display: flex;
-    gap: 1rem;
+    gap: 0.25rem;
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -363,7 +363,7 @@ body {
 
   .modal-skills {
     display: flex;
-    gap: 1rem;
+    gap: 0.25rem;
     justify-content: flex-start;
     align-items: flex-start;
   }
