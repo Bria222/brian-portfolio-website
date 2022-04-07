@@ -3,10 +3,6 @@
     display: none;
   }
 
-  .navbar-brand {
-    display: none;
-  }
-
   .navbar-nav {
     margin-left: 28%;
   }
@@ -97,6 +93,17 @@
 
   .modal-description-container {
     padding-top: 10px !important;
+  }
+
+  .modal-skills {
+    display: flex;
+    gap: 0.25rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .more-desktop {
+    display: none;
   }
 }
 
