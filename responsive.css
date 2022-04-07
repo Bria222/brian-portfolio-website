@@ -66,6 +66,18 @@
     font-size: 32px;
     line-height: 44px;
   }
+
+  .modal-img {
+    width: 98%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
 
 @media only screen and (min-width: 768px) {
