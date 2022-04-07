@@ -3,10 +3,6 @@
     display: none;
   }
 
-  .navbar-brand {
-    display: none;
-  }
-
   .navbar-nav {
     margin-left: 28%;
   }
@@ -65,6 +61,49 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
+  }
+
+  .modal-img {
+    width: 98%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .tag-btn {
+    padding: 4px 8px;
+  }
+
+  .project-underline {
+    display: block;
+    height: 1px;
+    width: 90%;
+    background-color: #ebecf0;
+    margin: 0 auto;
+  }
+
+  .modal-btn {
+    padding: 7px 8px;
+  }
+
+  .modal-description-container {
+    padding-top: 10px !important;
+  }
+
+  .modal-skills {
+    display: flex;
+    gap: 0.25rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .more-desktop {
+    display: none;
   }
 }
 
