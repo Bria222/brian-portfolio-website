@@ -635,6 +635,17 @@ h1 {
   transition: background-color 500ms ease;
 }
 
+.contact-button-message {
+  font-size: 10px;
+  padding: 10px;
+  background-color: #e210109d;
+  border: 0.5px solid #e21010;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 1s ease;
+  margin: 5px;
+}
+
 .contact-button:hover {
   background-color: rgb(151, 161, 245);
   color: #fff;
