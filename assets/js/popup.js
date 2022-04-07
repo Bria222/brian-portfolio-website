@@ -1,24 +1,5 @@
 // Main.js variables
 const projectBtn = document.querySelectorAll('.project-button');
-const form = document.querySelectorAll('.contact-form');
-const email = document.querySelectorAll('.mailinput');
-const validationMsg = document.getElementById('validation-message');
-
-// Form Validation
- form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const formMessage = ['Email should be in lower case', 'Submition aproved'];
-  const emailAddres = email.value;
-  if (emailAddres.toLowerCase() !== emailAddres) {
-    validationMsg.classList.remove('contact-button-success-message');
-    validationMsg.classList.add('contact-button-message');
-    validationMsg.innerHTML = `${formMessage[0]}`;
-  } else {
-    validationMsg.innerHTML = `${formMessage[1]}`;
-    validationMsg.classList.add('contact-button-success-message');
-  }
-});
-
 // Dynamic modal js functions
 // object element actribute generator
 const addAttributes = (element, attrObj) => {
@@ -155,37 +136,3 @@ projectBtn.forEach((btn, index) => {
   });
 });
 
-function storageAvailable(type) {
-  let storage;
-  try {
-    storage = window[type];
-    const x = '__storage_test__';
-    storage.setItem(x, x);
-    storage.removeItem(x);
-    return true;
-  } catch (e) {
-    return e instanceof DOMException && (e.code === 22
-      || e.code === 1014 || e.name === 'QuotaExceededError'
-      || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')
-      && (storage && storage.length !== 0);
-  }
-}
-
-if (storageAvailable('localStorage')) {
-  const input = [form.fullname, form.email, form.message];
-  input.forEach((input) => {
-    input.addEventListener('input', () => {
-      const objData = {
-        fullname: form.fullname.value,
-        email: form.email.value,
-        message: form.message.value,
-      };
-      localStorage.setItem('data', JSON.stringify(objData));
-    });
-  });
-  const getData = JSON.parse(localStorage.getItem('data'));
-
-  form.fullname.value = getData.fullname;
-  form.email.value = getData.email;
-  form.message.value = getData.message;
-}
