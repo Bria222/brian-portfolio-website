@@ -86,10 +86,10 @@ projectBtn.forEach((btn, index) => {
           <p>CANOPY</p>
         </li>
         <li>
-          <p>Back End Dev</p>
+          <p> <i class="fa-solid fa-circle"></i> Back End Dev</p>
         </li>
         <li>
-          <p>2015</p>
+          <p> <i class="fa-solid fa-circle"></i> 2015</p>
         </li>
       </ul>
     </div>
@@ -105,7 +105,7 @@ projectBtn.forEach((btn, index) => {
     <div class="modal-skills-container">
     <ul class="modal-skills">
     <li>
-      <p>html</p>
+     <p>html</p> 
     </li>
     <li>
       <p>css</p>
@@ -114,6 +114,7 @@ projectBtn.forEach((btn, index) => {
       <p>javascript</p>
     </li>
   </ul>
+  <div class="project-underline"></div>
   <div class="modal-buttons-container">
   <div class="modal-btn">
     <a href="${modalProject[index].pageLink}">See live</a>
