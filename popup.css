@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
-/* css sudo selector for entire css */
-
-/* stylelint-disable indentation */
-
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -169,7 +165,6 @@ body {
   .modal-buttons-container {
     display: flex;
     width: 97%;
-    margin: 10px 10px 0 10px;
     justify-content: center;
     align-content: center;
   }
