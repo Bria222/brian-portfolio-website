@@ -380,6 +380,7 @@
                 action="https://formspree.io/f/meqnzwab"
                 method="POST"
                 class="contact-form"
+                id="form"
               >
                 <input
                   type="text"
@@ -395,6 +396,7 @@
                   name="email"
                   placeholder="example@gmail.com"
                   class="input-client-info"
+                  id="email"
                   required
                 />
                 <textarea
@@ -408,9 +410,12 @@
                 >
                 </textarea>
                 <div class="button-container">
-                  <button name="submit" id="button" class="contact-button">
+                  <button name="submit" id="button" class="contact-button" type="submit">
+                   
                     Get It Touch
                   </button>
+                  
+                  <span id="validation-message"></span>
                 </div>
               </form>
             </div>

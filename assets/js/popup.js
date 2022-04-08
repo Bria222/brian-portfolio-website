@@ -1,7 +1,6 @@
 // Main.js variables
 const projectBtn = document.querySelectorAll('.project-button');
 // Dynamic modal js functions
-
 // object element actribute generator
 const addAttributes = (element, attrObj) => {
   Object.keys(attrObj).forEach((attr) => {
@@ -16,7 +15,7 @@ const createCustomElement = (element, attributes, children) => {
   if (children !== undefined) {
     children.forEach((el) => {
       if (el.nodeType) {
-        if (el.nodeType === 1 || el.nodeType === 11) customElement.appendChild(el);
+        if (el.nodeType === 1 || el.nodeType === 11) { customElement.appendChild(el); }
       } else {
         customElement.innerHTML += el;
       }
@@ -27,15 +26,23 @@ const createCustomElement = (element, attributes, children) => {
 };
 // Print modal-bg and modal content containers
 const printModal = (content) => {
-  const modalContent = createCustomElement('div', {
-    id: 'modal-content',
-    class: 'modal',
-  }, [content]);
+  const modalContent = createCustomElement(
+    'div',
+    {
+      id: 'modal-content',
+      class: 'modal',
+    },
+    [content],
+  );
 
-  const modalContainer = createCustomElement('div', {
-    id: 'modal-container',
-    class: 'modal-bg',
-  }, [modalContent]);
+  const modalContainer = createCustomElement(
+    'div',
+    {
+      id: 'modal-container',
+      class: 'modal-bg',
+    },
+    [modalContent],
+  );
 
   document.body.appendChild(modalContainer);
 };
@@ -44,31 +51,36 @@ const modalProject = [
   {
     title: 'Tonic',
     img: 'assets/images/desktop-images/desktop-work1.png',
-    description: 'A daily selection of privately perosonalized reads; no accounts or sign-ups required.',
+    description:
+      'A daily selection of privately perosonalized reads; no accounts or sign-ups required.',
     pageLink: 'https://github.com/Bria222/Bria222.github.io',
     sourcesLink: 'https://github.com/Bria222/Bria222.github.io',
   },
   {
     title: 'Multi-Post Stories',
     img: 'assets/images/desktop-images/desktop-work2.png',
-    description: 'Experimental content creation feature that allows users toadd to an existing story over the course of a day without spamming their friends.',
+    description:
+      'Experimental content creation feature that allows users toadd to an existing story over the course of a day without spamming their friends.',
     pageLink: 'https://github.com/Bria222/Bria222.github.io',
     sourcesLink: 'https://github.com/Bria222/Bria222.github.io',
   },
   {
     title: 'Facebook 360',
     img: 'assets/images/desktop-images/desktop-portfolio-image1.png',
-    description: 'Exploring the future of media in Facebooks first VirtualReality app; a place to discover and enjoy 360 photos andvideos on Gear VR.',
+    description:
+      'Exploring the future of media in Facebooks first VirtualReality app; a place to discover and enjoy 360 photos andvideos on Gear VR.',
     pageLink: 'https://github.com/Bria222/Bria222.github.io',
     sourcesLink: 'https://github.com/Bria222/Bria222.github.io',
   },
   {
     title: 'Uber Navigation',
     img: 'assets/images/desktop-images/desktop-portfolio-image2.png',
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    description:
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     pageLink: 'https://github.com/Bria222/Bria222.github.io',
     sourcesLink: 'https://github.com/Bria222/Bria222.github.io',
-  }];
+  },
+];
 // Modal projects event
 // First Modal
 projectBtn.forEach((btn, index) => {
