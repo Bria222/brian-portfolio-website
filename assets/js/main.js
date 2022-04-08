@@ -8,7 +8,7 @@ const humbuger = document.querySelector('.humbuger');
 const navMenu = document.querySelector('.nav-menu');
 const closeBtn = document.getElementById('close-btn');
 const header = document.querySelector('.mobile-nav');
-
+const contactBtn = document.querySelector('.contact-button');
 humbuger.addEventListener('click', () => {
   humbuger.classList.add('active');
   navMenu.classList.add('active');
@@ -50,14 +50,15 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 
 // Form Validation
 form.addEventListener('submit', (e) => {
-  e.preventDefault();
   const formMessage = ['Email should be in lower case', 'Submition aproved'];
   const emailAddres = email.value;
   if (emailAddres.toLowerCase() !== emailAddres) {
+    e.preventDefault();
     validationMsg.classList.remove('contact-button-success-message');
     validationMsg.classList.add('contact-button-message');
     validationMsg.innerHTML = `${formMessage[0]}`;
-  } else {
+  } 
+  else {
     validationMsg.innerHTML = `${formMessage[1]}`;
     validationMsg.classList.add('contact-button-success-message');
   }
