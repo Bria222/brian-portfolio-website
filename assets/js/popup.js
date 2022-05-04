@@ -57,12 +57,12 @@ const modalProject = [
     sourcesLink: 'https://github.com/Bria222/Capstone',
   },
   {
-    title: 'Multi-Post Stories',
-    img: 'assets/images/desktop-images/desktop-work2.png',
+    title: 'Estate',
+    img: 'assets/images/desktop-images/estate.png',
     description:
-      'Experimental content creation feature that allows users toadd to an existing story over the course of a day without spamming their friends.',
+      'estate management system is an platform used for reservation and room management.',
     pageLink: 'https://github.com/Bria222/Bria222.github.io',
-    sourcesLink: 'https://github.com/Bria222/Bria222.github.io',
+    sourcesLink: 'https://github.com/Bria222/estate-management-system',
   },
   {
     title: 'Facebook 360',
