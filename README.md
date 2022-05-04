@@ -1,5 +1,5 @@
 #  mobile version skeleton portfolio
-## live page:- https://bria222.github.io/
+## live page:- https://loving-mayer-a3a246.netlify.app
 
 ## Built With
 
