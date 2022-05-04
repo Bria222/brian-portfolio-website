@@ -49,12 +49,12 @@ const printModal = (content) => {
 
 const modalProject = [
   {
-    title: 'Tonic',
-    img: 'assets/images/desktop-images/desktop-work1.png',
+    title: 'Events Arena',
+    img: 'assets/images/desktop-images/capstone.png',
     description:
-      'A daily selection of privately perosonalized reads; no accounts or sign-ups required.',
-    pageLink: 'https://github.com/Bria222/Bria222.github.io',
-    sourcesLink: 'https://github.com/Bria222/Bria222.github.io',
+      'Events 254 website  is a responsive and dynamic  website for event boooking and management.',
+    pageLink: 'https://musing-noether-347890.netlify.app/',
+    sourcesLink: 'https://github.com/Bria222/Capstone',
   },
   {
     title: 'Multi-Post Stories',
