@@ -1,30 +1,57 @@
 {
-  "name": "bria222.github.io",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "1. html\r 2. css\r 3. Figma",
-  "main": "index.js",
+  "description": "Portfolio",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "deploy": "gh-pages -d dist/",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "linter": "eslint . --fix; stylelint \"**/*.scss\" --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bria222/Bria222.github.io.git"
+    "url": "git+https://github.com/mavericks-db/portfolio.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [],
+  "author": "Mavericks Balitaan",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bria222/Bria222.github.io/issues"
+    "url": "https://github.com/mavericks-db/portfolio/issues"
   },
-  "homepage": "https://github.com/Bria222/Bria222.github.io#readme",
+  "homepage": "https://github.com/mavericks-db/portfolio#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
     "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "^2.26.0",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
+    "gh-pages": "^3.2.3",
+    "hint": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.0.3",
+    "jest-environment-jsdom": "^28.0.2",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
-    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "jest": {
+    "verbose": true
   }
 }
