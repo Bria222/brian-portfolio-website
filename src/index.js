@@ -23,7 +23,7 @@ const cardObj = [
     name: 'cimeza Africa',
     lang: ['React', 'Redux', 'JavaScript', 'Sass', 'API', 'Linters'],
     demo: 'https://cimeza-africa.com',
-    source: 'https://github.com/mavericks-db/capstone03',
+    source: 'https://github.com/Bria222',
     description:
       'cimeza africa project is to build a mobile  and web application for a digital marketing agency using React and Redux.',
   },
@@ -33,7 +33,7 @@ const cardObj = [
     name: 'Pokemon Web App',
     lang: ['React', 'Redux', 'JavaScript', 'Sass', 'API', 'Linters'],
     demo: 'https://app-pokemon-webapp.netlify.app/',
-    source: 'https://github.com/mavericks-db/capstone03',
+    source: 'https://github.com/Bria222',
     description:
       'Microverse React Capstone Project: This educational project is to build a mobile web application to check a list of metrics (numeric values) using React and Redux.',
   },

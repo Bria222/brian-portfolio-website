@@ -15,6 +15,16 @@ html {
   scroll-behavior: smooth;
 }
 
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }}
+
 :root {
   --fw-400: 400;
   --fw-500: 500;
