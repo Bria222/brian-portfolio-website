@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mavericks-db/portfolio.git"
+    "url": "git+https://github.com/Bria222/brian-portfolio-website"
   },
   "keywords": [],
-  "author": "Mavericks Balitaan",
+  "author": "Brian Nyachae",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mavericks-db/portfolio/issues"
+    "url": "https://github.com/Bria222/brian-portfolio-website/issues"
   },
-  "homepage": "https://github.com/mavericks-db/portfolio#readme",
+  "homepage": "https://github.com/Bria222/brian-portfolio-websiteo#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.17.9",
     "babel-eslint": "^10.1.0",
