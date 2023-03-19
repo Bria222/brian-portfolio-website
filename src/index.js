@@ -2,7 +2,7 @@ import './style.scss';
 import close from './assets/close-mobileModal.svg';
 import live from './assets/icon-live.png';
 import source from './assets/icon-source.png';
-import imgPokemon from './assets/img/pokemon/mock_pokemon.png';
+import imgMotobike from './assets/img/motobike/mock-motobike.png';
 import imgPS from './assets/img/primeshows/mock_ps.png';
 import events254 from './assets/img/awc2022/events254.png';
 import imgSpace from './assets/img/space-travelers-hub/mock_space.png';
@@ -28,22 +28,22 @@ const cardObj = [
       'cimeza africa project is to build a mobile  and web application for a digital marketing agency using React and Redux.',
   },
   {
-    h3: 'Pokemon Web App',
-    img: imgPokemon,
-    name: 'Pokemon Web App',
-    lang: ['React', 'Redux', 'JavaScript', 'Sass', 'API', 'Linters'],
-    demo: 'https://app-pokemon-webapp.netlify.app/',
-    source: 'https://github.com/Bria222',
+    h3: 'Motorbike Booking app',
+    img: imgMotobike,
+    name: 'Motorbike Booking',
+    lang: ['React', 'Redux', 'JavaScript', 'Ruby', 'API', 'Ruby on rails'],
+    demo: 'https://motorbike-booking.netlify.app/',
+    source: 'https://github.com/Bria222/Motorbike-Booking-capstone',
     description:
-      'Microverse React Capstone Project: This educational project is to build a mobile web application to check a list of metrics (numeric values) using React and Redux.',
+      'Motorbike Booking is an application enables a user to view available motorbikes and reserve a specific one, as well as allows an admin to create, delete and add new categories of motorbikes..',
   },
   {
     h3: 'Prime Shows HD',
     img: imgPS,
     name: 'Prime Shows HD',
     lang: ['Webpack', 'JavaScript', 'Jest', 'Sass', 'API', 'Linters'],
-    demo: 'https://mavericks-db.github.io/capstone02/dist/',
-    source: 'https://github.com/Bria222/movie-TVmaze-API',
+    demo: '#',
+    source: 'https://github.com/Bria222/movie-TVmaze-API/',
     description:
       'Microverse Second Capstone Project: This educational project is to build our own web application based on an external API. We selected an API that provides data about a topic that we like and built the web app around it. The web app will have 2 or 3 user interfaces (depending on the size of our team).',
   },
