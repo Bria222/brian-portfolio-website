@@ -124,8 +124,8 @@ var projects = [
         description: 'A web application for a company that provides commercial and scientific space travel services, utilizing information from the SpaceX API.',
         stack: ['React', 'Redux', 'SpaceX API'],
         links: {
-            github: 'https://github.com/okoyecharles/space-travelers-hub',
-            live: 'https://charles-space-travelers.netlify.app'
+            github: 'https://github.com/Bria222/space-travelers-hub',
+            live: 'https://space-travelllers.netlify.app/'
         }
     },
     {
