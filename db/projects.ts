@@ -50,22 +50,11 @@ const projects = [
     description: 'Microverse Module 03 Project: This educational project is similar to the "Awesome Books" website. It is a MVP version of it that allows you to display a list of books, add a book and remove a selected book.',
     stack: ['React', 'Redux', 'Router', 'JavaScript', 'Jest', 'Sass'],
     links: {
-      github: 'https://github.com/Bria222/awesome-books-app',
-      live: 'https://app-bookstore-cms.netlify.app/',
+      github: 'https://github.com/Bria222/react-bookstore',
+      live: 'https://6425442a6752af422aef4ead--brian-nyachae-react-bookstore.netlify.app/',
     },
   },
-  // {
-  //   title: 'Wallet Detective',
-  //   note: 'A full-stack application where you can manage your budget',
-  //   image: '/projects/wallet-inspector.webp',
-  //   imgDims: { width: '2742', height: '1576' },
-  //   description: 'A full-stack application where you can manage your budget: you have a list of payments associated with a category, so you can see how much money you spent and on what',
-  //   stack: ['Rails', 'Ruby', 'Javascript'],
-  //   links: {
-  //     github: 'https://github.com/okoyecharles/rails-budget-app',
-  //     live: 'https://sleepy-hamlet-84522.herokuapp.com/',
-  //   },
-  // },
+  
   {
     title: 'Math Magicians',
     note: 'A website focused on performing methemathical problems',

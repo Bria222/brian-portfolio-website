@@ -125,7 +125,7 @@ var projects = [
         stack: ['React', 'Redux', 'SpaceX API'],
         links: {
             github: 'https://github.com/Bria222/space-travelers-hub',
-            live: 'https://space-travelllers.netlify.app/'
+            live: 'https://brian-nyachae-space-travellers.netlify.app/'
         }
     },
     {
