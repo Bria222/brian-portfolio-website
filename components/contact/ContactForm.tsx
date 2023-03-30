@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import styles from '../styles/Home.module.css'
 import Swal from 'sweetalert2'
+import { ThreeDots } from "react-loader-spinner";
+import { IoSend } from "react-icons/io5";
+
 export default function ContactForm() {
   const [success, setSuccess] = useState<boolean>(false);
+  const [processing, setProcessing] = useState(false);
   const [query, setQuery] = useState({
     name: "",
     email: "",
@@ -28,31 +32,45 @@ export default function ContactForm() {
     fetch("https://getform.io/f/11b8a94d-9198-4957-869c-2e72f27c2d18", {
       method: "POST",
       body: formData
-    }).then(() => setQuery({ name: "", email: "", message: "" }))
-   
+    })
+    .then(() => setQuery({ name: "", email: "", message: "" }))
+    setProcessing(true);
     Swal.fire( 'sent!','Thanks for contacting Brian','success');
-    ;
+    setProcessing(false);
+  
 
   };
   return (
     <div className="contactForm__container">
       
-      <form onSubmit={formSubmit}>
+      <form onSubmit={formSubmit} className="contactForm">
       <div className="mb-3">
-  <label htmlFor="name" className="form-label">full name</label><br />
+  <label htmlFor="name" className="contactForm__name">
+     Name{" "}
+     <span aria-hidden className=''>
+    *
+  </span>
+  </label><br />
+ 
   <input
   type="text"
   name="name"
+  id="contactForm__name"
   required
   placeholder="Name"
-  className="form-control"
+  className="contactForm__name"
   value={query.name}
   onChange={handleParam()}
     />
-<br />
+
 </div>
 <div className="mb-3">
-  <label htmlFor="email" className="form-label">Email address</label><br />
+<label htmlFor="contactForm__email">
+  Email{" "}
+  <span aria-hidden className=''>
+    *
+  </span>
+</label>
   <input
   type="email"
   name="email"
@@ -62,15 +80,22 @@ export default function ContactForm() {
   value={query.email}
   onChange={handleParam()}
 />
-<br />
+
 </div>
 <div className="mb-3">
  
-  <br />
+<label htmlFor="contactForm__message">
+  Message{" "}
+  <span aria-hidden className=''>
+    *
+  </span>
+</label>
   <textarea
-   className="form-control"
+   className="contactForm__message"
+   id="contactForm__message"
     name="message" 
-     placeholder="Message"
+    rows={5}
+    placeholder="Type your message here..."
       value={query.message} 
        onChange={handleParam()}
         >
@@ -79,8 +104,22 @@ export default function ContactForm() {
 </div>
 
 {success && <p><b>Message sent successfully</b></p>}
-<br />
-        <button type="submit">Send</button>
+
+        <button type="submit" >Send
+        {processing ? (
+            <ThreeDots
+              height="15"
+              width="20"
+              radius="9"
+              color="var(--loading)"
+              ariaLabel="three-dots-loading"
+              wrapperStyle={{}}
+              visible={true}
+            />
+          ) : (
+            <IoSend />
+          )}
+        </button>
       </form>
     </div>
   );
