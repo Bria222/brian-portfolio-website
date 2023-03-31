@@ -1,112 +1,165 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Mavericks Balitaan Portfolio
-## *Microverse Module 1 Project*
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://brian-nyachae.netlify.app/">
+   
+  </a>
 
-> This is my working portfolio. Inside you will find my background information, contact information, and my recent projects.
 
-## Built With 🛠️
+  <h5 align="center">  
+    <br />
+    <a href="https://brian-nyachae.netlify.app/" target="_blank">View Live</a>
+    ·
+    <a href="https://github.com/Bria222/brian-portfolio-website/version-2/issues/new" target="_blank">Report Bug</a>
+    ·
+    <a href="https://github.com/Bria222/brian-portfolio-website/version-2/issues/new" target="_blank">Request Feature</a>
+  </h5>
+</div>
 
-- [x] Language: Webpack, Sass and JavaScript
-- [x] Linters: Lighthouse, Webhint, Stylelint and ESLint
-- [x] Code Editor: VS Code
-- [x] Figma [Template 3](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=1%3A468)
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#my-portfolio">My Portfolio</a>
+      <ul>
+        <li><a href="#live-link">Live Link</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#clone-locally">Clone Locally</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#testing">Testing</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-## Website Mockup 📱 💻 🖥️
-![app_screenshot](https://user-images.githubusercontent.com/98527559/175526090-83965dbe-743b-4f29-a9cb-4c88e527c231.png)
+<!-- ABOUT THE PROJECT -->
 
-## Screenshots 📸
-Mobile and desktop version screenshots can be found in the repository.
+### My Portfolio
 
-## Live Demo 🔗
+This website serves as a collection of my most recent, expertly crafted, and innovative projects as well as a base of knowlegde concerning the abouts of the creator... **Brian nyachae**.
 
-Check the live demo [here]()👈
+<div align="center">
+  <img  width="1000" alt="portfolio" src="./public/assets/app-screenshot.webp">
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live link
+Here is the [live link](https://brian-nyachae.netlify.app/) of my portfolio.
+
+### Built With
+
+**Main Technologies:**
+
+- ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+- ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+- ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+- ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
-To get a local copy up and running follow these simple steps.
+
+### Clone-Locally
+
+- Enter this url: [https://github.com/Bria222/brian-portfolio-website/version-2](https://github.com/Bria222/brian-portfolio-website/version-2) in your web browser.
+- Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+- Select download Zip option from drop down menu.
+- Once the download is complete you will be able to access my project locally.
 
 ### Prerequisites
 
-- [x] A web browser like Google Chrome.
-- [x] A code editor like Visual Studio Code with Git and Node.js.
+- Node package manager (latest version)
+  - Firstly install **node.js** then run the code below
+  ```sh
+  npm install npm@latest -g
+  ```
+- Project dependencies
+  - Install all dependencies for running the project
+  ```sh
+  npm install
+  ```
 
-You can check if Git is installed by running the following command in the terminal.
-```
-$ git --version
-```
+### Testing
 
-Likewise for Node.js and npm for package installation.
-```
-$ node --version && npm --version
-```
+In order to run tests for this project make sure you have installed all previously mentioned [prerequisites](#prerequisites) section, then run the code below.
 
-### Setup
-Clone the repository using the GitHub link provided below.
+- Run all tests
+  - This should run all tests using 'react-test-renderer'
+  ```sh
+  npm run test
+  ```
+- Get a coverage report
+  - Add a `--coverage` flag to the test script in [package.json](package.json).
+  ```json
+  "scripts": {
+    ...
+    "test": "react-scripts test --coverage",
+  }
+  ```
 
-### Install
-In the terminal, go to your file directory and run this command.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```
-$ git clone git@github.com:mavericks-db/portfolio.git
-```
+<!-- CONTRIBUTING -->
 
-### Run tests
-To check for linters, use the files provided by [Microverse](https://github.com/microverseinc/linters-config). A GitHub action is also set to run during pull request.
-```
-$ npm install
-```
+## Contributing
 
-## Usage
-Kindly modify the files as needed. This website demonstrates both desktop and mobile versions.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## Deployment
-This app is deployed in the GitHub Pages for easy viewing upon merged on the main branch.
-Please find the link in the Live Demo section.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-## Authors
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-👤 **Brian nyachae** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
-- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-mavericks--db-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/brian-nyachae/)
+## License
 
-- AngelList: [![AngelList Badge](https://img.shields.io/badge/-mavericks--db-white?logo=AngelList&logoColor=000000&style=plastic)](https://angel.co/u/brian-nyachae)
+Distributed under the [MIT](./LICENSE) License.
 
-- GitHub: [![GitHub Badge](https://img.shields.io/badge/-mavericks--db-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/mavericks-db)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Twitter: [![Twitter Badge](https://img.shields.io/badge/-mavericks__db-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/briannyachae9)
+<!-- CONTACT -->
 
-- Facebook: [![Facebook Badge](https://img.shields.io/badge/-mavericksdb-white?logo=Facebook&logoColor=1877F2&style=plastic)](https://www.facebook.com/brian nyachae/)
+## Contact
 
-- Gmail: [![Gmail Badge](https://img.shields.io/badge/-balitaanmavericks-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:techconsultants.bree@gmail.com)
+### Brian Nyachae
 
-👤 **Baroka Irotori** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
+ <div align="center">
+ <a href="https://www.linkedin.com/in/brian-nyachae/"><img src="https://img.shields.io/badge/linkedin-%230070f3.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a> 
+ <a href="https://twitter.com/briannyachae_"><img src="https://img.shields.io/badge/Twitter-%230070f3.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter"></a> 
+ <a href="https://github.com/Bria222/"><img src="https://img.shields.io/badge/github-%230070f3.svg?style=for-the-badge&logo=github&logoColor=white" alt="Github"></a> 
+ <a href="https://angel.co/u/brian-nyachae"><img src="https://img.shields.io/badge/AngelList-%230070f3.svg?style=for-the-badge&logo=AngelList&logoColor=white" alt="AngelList"></a> 
+ <a href="mailto:techconsultants.bree@gmail.com"><img src="https://img.shields.io/badge/Gmail-0070f3?style=for-the-badge&logo=gmail&logoColor=white" alt="Linkedin"></a>
+ </div>
 
-- GitHub: [![GitHub Badge](https://img.shields.io/badge/-Baroka--wp-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Baroka-wp)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 **Yusuf Nviiri** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
-
-- GitHub: [![GitHub Badge](https://img.shields.io/badge/-yusufnviiri-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/yusufnviiri)
-
-👤 **Shamuobe Buingo Joseph** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
-
-- GitHub: [![GitHub Badge](https://img.shields.io/badge/-joseph07--drack-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/joseph07-drack)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/mavericks-db/portfolio/issues).
-## Show your support
-
-Give a ⭐️ if you like this project!
+<!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
+- [Netlify Hosting](https://netlify.com/)
+- [Img Shields](https://shields.io)
+- [React Icons](https://react-icons.github.io/react-icons/search)
 
-- [Microverse](https://www.microverse.org/)
-- Code Reviewers
-- Coding Partners
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
