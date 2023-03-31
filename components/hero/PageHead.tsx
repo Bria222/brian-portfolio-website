@@ -5,7 +5,7 @@ const PageHead = () => {
   return (
     <Head>
       <title>Brian Nyachae</title>
-      <meta name="title" content="Okoye Charles" />
+      <meta name="title" content="Brian Nyachae" />
       <meta
         name="description"
         content="Brian Nyachae is a software developer who specializes in creating and designing appealing user interfaces and websites."
@@ -13,15 +13,15 @@ const PageHead = () => {
       <meta name="theme-color" content="#2b353f" />
       <meta
         name="keywords"
-        content="Brian Nyachae, onsinde, nyachae, Resume, Portfolio, brian, Software Developer, Full Stack Software Engineer, React Developer, Next.js Developer"
+        content="Brian Nyachae, onsinde, nyachae, Resume, Portfolio, brian, Software Developer, Full Stack Software Engineer, React Developer, Next.js Developer,kenyan developer,kenya website developers,"
       />
       <meta name="robots" content="index, follow" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="language" content="English" />
       <meta name="author" content="Brian Nyachae" />
-      <meta name="image" content="https://okoyecharles.com/og.png" />
+      <meta name="image" content="https://brian-nyachae.netlify.app/og.png" />
       <link rel="icon" href="/assets/logo.svg"></link>
-      <link rel="canonical" href="https://okoyecharles.com/" />
+      <link rel="canonical" href="https://brian-nyachae.netlify.app/" />
 
       {/* Google Verification */}
       <meta
@@ -33,12 +33,12 @@ const PageHead = () => {
       <link
         rel="apple-touch-icon"
         sizes="48x48"
-        href="/apple-icons/icon-48x48.png"
+        href="/apple-icons/apple-touch-icon-57x57.png"
       />
       <link
         rel="apple-touch-icon"
         sizes="72x72"
-        href="/apple-icons/icon-72x72.png"
+        href="/apple-icons/apple-touch-icon-114x114.png"
       />
       <link
         rel="apple-touch-icon"
@@ -53,22 +53,22 @@ const PageHead = () => {
       <link
         rel="apple-touch-icon"
         sizes="192x192"
-        href="/apple-icons/icon-192x192.png"
+        href="/apple-icons/apple-touch-icon-180x180.png"
       />
       <link
         rel="apple-touch-icon"
         sizes="256x256"
-        href="/apple-icons/icon-256x256.png"
+        href="/apple-icons/apple-touch-icon-180x180.png"
       />
       <link
         rel="apple-touch-icon"
         sizes="384x384"
-        href="/apple-icons/icon-384x384.png"
+        href="/apple-icons/apple-touch-icon-120x120"
       />
       <link
         rel="apple-touch-icon"
         sizes="512x512"
-        href="/apple-icons/icon-512x512.png"
+        href="/apple-icons/apple-touch-icon-120x120"
       />
 
       {/* Open Graph / Facebook */}
@@ -87,7 +87,7 @@ const PageHead = () => {
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:creator" content="@OkoyeCharles_" />
+      <meta property="twitter:creator" content="@bree47632965" />
       <meta property="twitter:url" content="https://brian-nyachae.netlify.app/" />
       <meta property="twitter:title" content="Brian Nyachae" />
       <meta
