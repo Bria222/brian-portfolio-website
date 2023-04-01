@@ -9,7 +9,7 @@ describe("<Hero />", () => {
   it("contains headers", () => {
     cy.mount(<Hero />);
     cy.get("h1").should("have.text", "Hi, my name is");
-    cy.get("h2").should("have.text", "Okoye Charles.");
+    cy.get("h2").should("have.text", "Brian Nyachae.");
     cy.get("h3").should("have.text", "I embrace the digital world.");
   });
   

@@ -10,7 +10,7 @@ describe('<About />', () => {
   it('contains name', () => {
     cy.mount(<About />)
     cy.get('.about__content')
-    .should('contain.text', 'Okoye Charles Kaosisochukwu')
+    .should('contain.text', 'Brian Nyachae')
   });
   
   it('contains image', () => {

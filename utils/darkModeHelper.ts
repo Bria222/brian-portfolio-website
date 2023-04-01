@@ -2,7 +2,7 @@ const toggleDarkMode = (setDarkMode: any, checked: boolean) => {
   setDarkMode(checked);
   const root = document.querySelector(':root');
   root?.classList.toggle('dark', checked);
-  let webConfig = JSON.parse(localStorage.getItem('okoye-charles-web-config') || '{}');
+  let webConfig = JSON.parse(localStorage.getItem('brian-nyachae-web-config') || '{}');
 
   if (checked) {
     webConfig = { ...webConfig, darkMode: true }
@@ -10,6 +10,6 @@ const toggleDarkMode = (setDarkMode: any, checked: boolean) => {
     webConfig = { ...webConfig, darkMode: false }
   }
 
-  localStorage.setItem('okoye-charles-web-config', JSON.stringify(webConfig));
+  localStorage.setItem('brian-nyachae-web-config', JSON.stringify(webConfig));
 }
 export default toggleDarkMode;

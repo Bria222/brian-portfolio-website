@@ -24,10 +24,10 @@ const PageHead = () => {
       <link rel="canonical" href="https://brian-nyachae.netlify.app/" />
 
       {/* Google Verification */}
-      <meta
+      {/* <meta
         name="google-site-verification"
         content="gMDLAgN62FdAkPVtCW3uNdL_gED0DwDLzqsXIyMpI8Q"
-      />
+      /> */}
 
       {/* Apple touch icons */}
       <link

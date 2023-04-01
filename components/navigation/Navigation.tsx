@@ -32,7 +32,7 @@ const Navigation = () => {
   useEffect(() => {
     // Set darkmode
     setDarkMode(
-      !!JSON.parse(localStorage?.getItem("okoye-charles-web-config") || "{}")
+      !!JSON.parse(localStorage?.getItem("brian-nyachae-web-config") || "{}")
         ?.darkMode
     );
     // Start navlinks animation

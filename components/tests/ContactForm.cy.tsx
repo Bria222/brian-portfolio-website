@@ -10,8 +10,8 @@ describe('<ContactForm />', () => {
     cy.mount(<ContactForm />)
 
     // Type in content to inputs
-    cy.get('#contactForm__name').type('Okoye Charles');
-    cy.get('#contactForm__email').type('okoyecharles509@gmail.com');
+    cy.get('#contactForm__name').type('Brian Nyachae');
+    cy.get('#contactForm__email').type('techconsultants.bree@gmail.com');
 
     // Intentionally type too short text in textarea
     cy.get('#contactForm__message').type('Hey c');

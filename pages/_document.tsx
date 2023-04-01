@@ -7,7 +7,7 @@ export default function Document() {
       <Head>
         <Script id="light-dark-enabler" strategy="beforeInteractive">
           {`
-            const webConfig = JSON.parse(localStorage.getItem('okoye-charles-web-config') || '{}'),root=document.querySelector(':root');
+            const webConfig = JSON.parse(localStorage.getItem('brian-nyachae-web-config') || '{}'),root=document.querySelector(':root');
             webConfig.darkMode && root?.classList.add('dark');
           `}
         </Script>

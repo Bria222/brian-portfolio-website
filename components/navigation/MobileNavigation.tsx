@@ -43,7 +43,7 @@ const MobileNavigation = () => {
 
   useEffect(() => {
     setDarkMode(
-      !!JSON.parse(localStorage?.getItem("okoye-charles-web-config") || "{}")
+      !!JSON.parse(localStorage?.getItem("brian-nyachae-web-config") || "{}")
         ?.darkMode
     );
     const observer = new IntersectionObserver(
