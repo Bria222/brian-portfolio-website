@@ -27,6 +27,19 @@ const projects = [
     },
   },
   {
+    title: 'Marble Tours',
+    note: 'Prime tours and travel logistics.',
+    image: '/projects/marble.png',
+    imgDims: { width: '2496 ', height: '1427' },
+    description:
+      'Marble Travel Bureau, a licensed Kenyan-based tour operator in Nairobi, offers a diverse range of safari products and services. From airport transfers to taxi services, hotel bookings, car rentals, air ticketing, safaris, beach holidays, and mountaineering, we cater to all travel needs. Our team of qualified holiday planners and developers ensures meticulous attention to detail, delivering an all-encompassing and perfect travel experience.',
+    stack: ['Next.js', 'Redux', 'Express', 'MongoDB'],
+    links: {
+      github: 'https://github.com/Bria222/',
+      live: 'https://www.marbletravel.com/',
+    },
+  },
+  {
     title: 'Motorbike Booking',
     note: 'A full-stack Motorbike Booking website inspired by the Uber website',
     image: '/projects/mock-motobike.png',
