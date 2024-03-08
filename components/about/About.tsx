@@ -42,15 +42,13 @@ const About: React.FC<AboutProps> = ({ aboutRef }) => {
           </p>
 
           <p>
-            I&apos;m relatively new to the software development world and since
-            May 2022 I&apos;ve been building my technical, leadership, and
-            collaborative skills at{' '}
-            <a href='https://www.microverse.org/?grsf=wtedvt' target='_blank'>
-              Microverse
-            </a>{' '}
-            through collaborating and pair programming with other students from
-            all over the world.
-          </p>
+    With extensive experience in the software development field, I've been actively building my technical, leadership, and collaborative skills since May 2022 at 
+    <a href='https://www.microverse.org/?grsf=wtedvt' target='_blank'>
+        Microverse
+    </a> 
+    through collaborating and pair programming with other students from all over the world.
+</p>
+
 
           <p>
             My main aim is to create and deliver unique, high-end and innovative
